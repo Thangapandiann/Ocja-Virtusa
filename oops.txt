@@ -1,0 +1,163 @@
+Encapsulation.
+
+
+class Student {
+    private int Student_Id;
+    private String name;
+    
+    public int getId() {
+        return Student_Id;
+    }
+    public void setId(int s_id) {
+        this.Student_Id = s_id;
+    }
+    public String getname() {
+        return name;
+    }
+    public void setname(String s_name) {
+        this.name = s_name;
+    }
+}
+class Main{
+    public static void main(String[] args) {
+        Student s=new Student();
+        
+        s.setId (27);
+        s.setname("Tom Lee");
+                
+        System.out.println("Student Data:" + "\nStudent ID:" + s.getId()
+                            + " Student Name:" + s.getname());
+    }
+}
+
+
+
+Polymorphism.
+
+
+class Parent {
+ 
+  void print() {
+    System.out.println("Hi I am parent");
+  }
+}
+
+class Child extends Parent {
+  
+  void print() {
+    System.out.println("Hi I am children");
+  }
+}
+
+class Overload {
+ 
+  void statement(String name) {
+    System.out.println("Hi myself " + name);
+  }
+  
+  void statement(String fname, String lname) {
+    System.out.println("Hi myself " + fname + " " + lname);
+  }
+}
+public class Main {
+  public static void main(String[] args) {
+    
+    Parent obj1;
+    obj1 = new Parent();
+    obj1.print();
+    obj1 = new Child();
+    obj1.print();
+
+   
+    Overload obj2 = new Overload();
+    obj2.statement("Soham.");
+    obj2.statement("Soham", "Medewar.");
+  }
+}
+
+
+Inheritance.
+
+Class PetAnimal {
+
+  
+  String name;
+  public void eat() {
+    System.out.println("I can eat");
+  }
+}
+
+
+class Dog extends PetAnimal {
+
+
+  public void display() {
+    System.out.println("My name is " + name);
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+
+   
+    Dog labrador = new Dog();
+
+   
+    labrador.name = "Rohu";
+    labrador.display();
+
+  
+    labrador.eat();
+
+  }
+}
+
+
+Abstraction and interface
+
+
+public class OverridingDemo {
+  public static void main(String[] args) {
+    Challenger challenger = new JavaChallenger();
+    challenger.doChallenge();
+  }
+}
+
+interface Challenger {
+  void doChallenge();
+}
+
+class JavaChallenger implements Challenger {
+  @Override
+  public void doChallenge() {
+    System.out.println("Challenge done!");
+  }
+}
+
+
+
+
+abstract class Animal {
+ 
+  public abstract void animalSound();
+
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+
+
+class Pig extends Animal {
+  public void animalSound() {
+    
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Pig myPig = new Pig(); // Create a Pig object
+    myPig.animalSound();
+    myPig.sleep();
+  }
+}

@@ -1,0 +1,34 @@
+jdbc connection:
+
+
+import java.sql.*;
+public class Demo1 {
+	
+	
+
+	void tableCreate()
+	{
+		try {
+			 Class.forName("com.mysql.jdbc.Driver");
+	            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/t1","root","sabarivj");
+	            Statement  st = con.createStatement();
+	             ResultSet rs=st.executeQuery("select * from em");  
+	             while(rs.next()) {
+	            	 System.out.println(rs.getInt(1)+" "+rs.getString(2));
+	             }
+	            
+	            System.out.println("Success!");
+			 con.close();
+	       }
+		catch(Exception e)
+		{
+			System.out.println("---->"+e);
+		}
+	}
+
+	public static void main(String[] args)throws Exception {
+		
+		new Demo1().tableCreate();
+	}
+
+}

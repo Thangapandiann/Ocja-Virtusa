@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website</title>
+</head>
+<body>
+    <h1>This is me back</h1>
+    <h2>the back </h2>
+    <p style="color: aqua;background-color: black;">this is what </p>
+      <a href="https://www.youtube.com/watch?v=uhza_QbzR7o&t=30093s">click here</a> anchor tag  
+    <hr>
+    <div style="background-color: blue;">this is parah</div>
+    <p>my mim has<span style="color: rgb(157, 25, 209);"> blue </span>eyes</p>
+    <blockquote>
+      <q>the will power</q><br><q>where there<del>is way</del>  there is a will</q>-alex
+    </blockquote>
+    <p>this is <abbr title="Hypertext markup language">HTML</abbr></p>
+
+    <address>
+      contact:9800223333<br>
+      thangapamid<br>
+      1/38/3-1,thirukumaran nagar
+
+    </address>
+    "the unwill power"-<cite>thanga</cite>
+    <br>
+    <br>
+    <i>the caububifv </i>
+    <br>
+    HTML-<dfn>hypertext Markup Language</dfn><br>
+     <img src="download.jpg.jpg" alt="the image is not uploaded" width=200px>
+    <img src="C:/Users/DELL/Pictures/Camera Roll/pic.jpg.jpg"width=100px>
+
+    <br>
+    <ol style="list-style-type: decimal;">
+      <li>rice</li>
+      <li>whaest</li>
+    </ol>
+    <hr>
+    <ul>
+      <li>rice </li>
+      <li>whaets</li>
+    </ul>
+    <br>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext markup langauge is easy to everyone and this vojjy</dd>
+      <dt>css</dt>
+      <dd>cascading style sheet</dd>
+    </dl>
+
+
+<ol>
+  <li>History</li>
+  <ul>
+    <li>Britisg</li>
+    <li>suthuuu</li>
+    <ul>
+      <li>nhhhh</li>
+      <li>uuuuu</li>
+    </ul>
+  </ul>
+</ol>
+<ol>
+  <li>History</li>
+  <ul>
+    <li>Britisg</li>
+    <li>suthuuu</li>
+    <ul>
+      <li>nhhhh</li>
+      <li>uuuuu</li>
+    </ul>
+  </ul>
+</ol>
+
+
+<table border="1" cellpadding="4" cellspacing="4"style="border-collapse:collapse;">
+  <tr>
+    <th>sno</th>
+    <th>naem</th>
+    <th>marks</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Thanga</td>
+    <td>100</td>
+  </tr>
+</table>
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>age</th>
+    <th colspan="4">Marks</th>
+  </tr>
+  <tr>
+    <th>Firstname</th>
+    <th>LastName</th>
+    <th></th>
+    <th>Eng</th>
+    <th>MAt</th>
+    <th>sci</th>
+    <th>soc</th>
+  </tr>
+  <tr>
+    <td>Krishna</td>
+    <td>kumar</td>
+    <td>89</td>
+    <td>90</td>
+    <td>23</td>
+    <td>89</td>
+    <td>34</td>
+    <
+  </tr>
+</table>
+<br>
+<br>
+
+<table border="1" style="border-collapse:collapse">
+
+  <tr>
+    <th rowspan="3">name</th>
+    <th>FirstName</th>
+    <td>krishna</td>
+    <td>raj</td>
+  </tr>
+  <tr>
+    <th>LastName</th>
+    <td>kiaraa</td>
+    <td>advani</td>
+   
+  </tr>
+  <tr>
+    <th rowspan="3">age</th>
+    
+    <td>23</td>
+    <td>23</td>
+  </tr>
+</table>
+<br>
+<br>
+<form>
+  <label for="fname">FirstName:</label>
+  <input type="text" id="fname" name="fname" value="Thanga"><br><br>
+  <label for="lname">LastName:</label>
+  <input type="text" id="lname" name="lname" value="pandian">
+
+</form>
+<br>
+<form>
+    <input type="radio" name="gender" value="male">
+    <label>male</label><br>
+    <input type="radio" name="gender" value="female">
+    <label>female</label><br>
+    <input type="radio" name="gender" value="Transgender">
+    <label>Transgender</label>
+    <br>
+    <input type="button" value="submit">
+    <textarea>
+      twlecome the java sjnnceuncueciuenc
+    </textarea><br>
+    <fieldset>
+      <legend>Personl Information</legend>
+      <label for="fname">FirstName:</label>
+  <input type="text" id="fname" name="fname" value="Thanga"><br><br>
+  <label for="lname">LastName:</label>
+  <input type="text" id="lname" name="lname" value="pandian">
+    </fieldset><br>
+    
+
+</form><br>
+<select size="3">
+  <option value="Audi">Audi</option>
+  <option value="BMW">BMW</option>
+  <option value="tata">Tata</option>
+  <option value="Honda">Honda</option>
+</select>
+<br>
+<input list="cars">
+<datalist id="cars">
+  <option value="Audi">Audi</option>
+  <option value="BMW">BMW</option>
+  <option value="Tata">Tata</option>
+  <option value="Honda">Honda</option>
+
+
+</datalist>
+
+
+
+</body>
+</html>
+
